@@ -396,14 +396,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <h3>R</h3>
 
   <p>
-    <a href="https://www.r-project.org">R</a> is a programming language
+    If you already have R and R-Studio download PLEASE update them both to the most recent versions otherwise, there will likely be issues with code not running properly. <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
      After updating or installing R and R Studio please update or install the following packages
         by copying and pasting these two lines of code into the R Studio console:
-        <font face = "courier" size = "3">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
-        <font face = "courier" size = "3">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
+        <font face = "courier" size = "2">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
+        <font face = "courier" size = "2">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
   </p>
 
   <div class="row">
