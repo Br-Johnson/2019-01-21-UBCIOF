@@ -236,6 +236,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
+  If you are a Hakai affiliate and need access to Hakai Oceanography or Salmon Progam data from the Hakai Data Portal,
+  please make sure you can log in to the <a href = https://hecate.hakai.org/portal2/">Hakai Data Portal.</a> 
+  If you can't login, but you should be able to, please email data@hakai.org to request access. You will need this if you would
+    like to download data from the Portal directly into R.
+</p>
+
+<p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
