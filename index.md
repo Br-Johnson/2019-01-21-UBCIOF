@@ -223,7 +223,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if page.carpentry == "swc" %}
   Software Carpentry
   {% elsif page.carpentry == "dc" %}
@@ -231,7 +231,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
+  style workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
