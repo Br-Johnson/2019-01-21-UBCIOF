@@ -237,7 +237,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 <p>
   If you are a Hakai affiliate and need access to Hakai Oceanography or Salmon Progam data from the Hakai Data Portal,
-  please make sure you can log in to the <a href = https://hecate.hakai.org/portal2/">Hakai Data Portal.</a> 
+  please make sure you can log in to the <a href = "https://hecate.hakai.org/portal2/">Hakai Data Portal.</a> 
   If you can't login, but you should be able to, please email data@hakai.org to request access. You will need this if you would
     like to download data from the Portal directly into R.
 </p>
@@ -408,7 +408,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
      After updating or installing R and R Studio please update or install the following packages
-        by copying and pasting these two lines of code into the R Studio console:
+        by copying and pasting these two lines of code into the R Studio console: <br>
+  
         <font face = "courier" size = "2">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
         <font face = "courier" size = "2">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
   </p>
