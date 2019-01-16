@@ -425,8 +425,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        Also, please update or install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>. 
+        After updating or installing R and R Studio please update or install the following packages
+        by copying and pasting these two lines of code into the R Studio console:
+        <font face = "courier" size = "5">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
+        <font face = "courier" size = "5">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
       </p>
     </div>
     <div class="col-md-4">
