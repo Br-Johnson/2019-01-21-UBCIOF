@@ -207,7 +207,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   
   <h2 id="communications">Communications</h2>
   
-  We will use the  <a href="https://juvenilesalmon.slack.com">Juvenile Salmon Slack Network</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use the  <a href="https://juvenilesalmon.slack.com">Juvenile Salmon Slack Network</a> for chatting, taking notes, and sharing URLs and bits of code. Please sign-up for a free slack account and download the desktop or mobile app <a href="https://get.slack.help/hc/en-us/sections/360000110123-Download-the-Slack-app">here</a> and search for the Juvenile Salmon Workplace to join. Otherwise use the browser based version here <a href = "https://juvenilesalmon.slack.com/messages/CFEPDMHGS/">here</a>.
 </p>
 {% endif %}
 
