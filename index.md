@@ -410,7 +410,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
      After updating or installing R and R Studio please update or install the following packages
         by copying and pasting these two lines of code into the R Studio console: <br>
   
-        <font face = "courier" size = "2">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
+        <font face = "courier" size = "2">install.packages(c('tidyverse', 'lubridate', 'devtools', 'googlesheets'))</font><br />
         <font face = "courier" size = "2">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
   </p>
 
