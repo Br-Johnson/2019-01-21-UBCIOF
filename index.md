@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "R Projects for the Pelagic Ecosystems Lab and Hakai Affiliates"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Aquatic Ecosystems Research Laboratory Rm. 107 on Monday 220 on Tuesday, 2202 Main Mall, Vancouver, BC"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Aquatic Ecosystems Research Laboratory Rm. 107 on Monday and room 220 on Tuesday, 2202 Main Mall, Vancouver, BC"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: ""       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -204,6 +204,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
+  
+  <h2 id="communications">Communications</h2>
+  
   We will use the  <a href="https://juvenilesalmon.slack.com">Juvenile Salmon Slack Network</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
@@ -232,7 +235,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry
   {% endif %}
   style workshop,
-  you will need access to the software described below.
+  you will need access to the software described below. Please install the Bash Shell (if you're on Windows), Git and GitHub, and R and R-Studio as described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
