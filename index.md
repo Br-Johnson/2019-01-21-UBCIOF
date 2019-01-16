@@ -321,7 +321,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         Terminal in your dock for this workshop.
       </p>
     </div>
-  
+
+<div>
 <div id="git"> {% comment %} Start of 'Git' section. {% endcomment %}
   <h3>Git</h3>
   <p>
@@ -380,6 +381,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
+</div>
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
