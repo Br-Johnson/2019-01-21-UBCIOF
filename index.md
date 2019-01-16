@@ -400,6 +400,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
+     After updating or installing R and R Studio please update or install the following packages
+        by copying and pasting these two lines of code into the R Studio console:
+        <font face = "courier" size = "3">install.packages(c('tidyverse', 'lubridate', 'devtools'))</font><br />
+        <font face = "courier" size = "3">devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')</font><br />
   </p>
 
   <div class="row">
@@ -427,10 +431,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please update or install the
         <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>. 
-        After updating or installing R and R Studio please update or install the following packages
-        by copying and pasting these two lines of code into the R Studio console:
-        install.packages(c('tidyverse', 'lubridate', 'devtools'))
-        devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')
       </p>
     </div>
     <div class="col-md-4">
