@@ -32,7 +32,7 @@ If you already have these tools installed PLEASE update them by downloading the 
 
 ## Install Git
 
-The following section on Git and GitHub were written by Jenny Bryan in her book [Happy Git with R](https://happygitwithr.com/) under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Modifications were made to customize the intructions for this workshop.
+The following section on Git and GitHub were written by Jenny Bryan in her book [Happy Git with R](https://happygitwithr.com/) under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Modifications were made to customize the instructions for this workshop.
 
 You need Git, so you can use it at the command line and so RStudio can call it.
 
