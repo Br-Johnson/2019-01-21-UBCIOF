@@ -1,4 +1,4 @@
-# R Projects Workshop for the Pelagic Ecosystems Lab and Hakai Affiliates
+# Get set up for the R Workshop for the Pelagic Ecosystems Lab and Hakai Affiliates
 
 This is the repository for the upcoming Data Carpentry style 'R Projects for the Pelagic Ecosystems Lab and Hakai Affiliates' workshop held at UBC on January 21–22 2019.
 
@@ -6,7 +6,7 @@ See the website for this workshop [here](https://Br-Johnson.github.io/2019-01-21
 
 Before attending the course it is critical you show up prepared, having gone through the following steps to set up the tools we will be using. If you have any issues installing these tools, please contact me or your fellow workshop attendees for help. If that fails please arrive to the workshop an hour early at 8 a.m. and we can work through the steps together.
 
-# Before the course even starts
+# Before the course starts
 
 ## Communications
 
