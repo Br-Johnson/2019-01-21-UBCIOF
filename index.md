@@ -202,6 +202,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 {% endcomment %}
+
+<p id = "setup">
+  <h2 id="setup">Setup</h2>
+  You will need to update or install R, R-studio, and git. Please follow take ~ 1 hour to <a href = "https://github.com/Br-Johnson/2019-01-21-UBCIOF/blob/gh-pages/README.md">follow these instructions</a>
+  
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   
