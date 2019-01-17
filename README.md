@@ -1,22 +1,16 @@
----
-title: "README"
-author: "Brett Johnson"
-date: "1/16/2019"
-output: html_document
----
-# R Projects for the Pelagic Ecosystems Lab and Hakai Affiliates
+# R Projects Workshop for the Pelagic Ecosystems Lab and Hakai Affiliates
 
 This is the repository for the upcoming Data Carpentry style 'R Projects for the Pelagic Ecosystems Lab and Hakai Affiliates' workshop held at UBC on January 21–22 2019.
 
-See the website for this workshop here: https://Br-Johnson.github.io/2019-01-21-UBCIOF
+See the website for this workshop [here](https://Br-Johnson.github.io/2019-01-21-UBCIOF)
 
-Before attending the course it is critical you show up prepared, having gone through the following steps to set up the tools we will be using. If you have any issues installing these tools, please arrive to the workshop an hour early at 8 a.m. and we can work through the steps.
+Before attending the course it is critical you show up prepared, having gone through the following steps to set up the tools we will be using. If you have any issues installing these tools, please contact me or your fellow workshop attendees for help. If that fails please arrive to the workshop an hour early at 8 a.m. and we can work through the steps together.
 
 # Before the course even starts
 
 ## Communications
 
-* [Download slack](https://join.slack.com/t/juvenilesalmon/signup). We'll use slack for communications during the course.
+* [Download slack](https://join.slack.com/t/juvenilesalmon/signup). We'll use slack for communications during the course to post bits of code, links, and answer questions.
 
 ## Tools
 
@@ -25,7 +19,7 @@ If you already have these tools installed PLEASE update them by downloading the 
 * Update or install [R-Studio](https://www.rstudio.com)
 * Update or instal [R](https://cran.r-project.org/)
 * Update or install these packges by running the following code in the R Console pane:
-    `install.packages(c('tidyverse', 'lubridate', 'devtools', 'googlesheets'))`
+    `install.packages(c('tidyverse', 'lubridate', 'devtools', 'googlesheets', 'here'))`
     
 ## Hakai Data Portal
 
@@ -33,9 +27,8 @@ If you already have these tools installed PLEASE update them by downloading the 
 
 # Git
 
-## GitHub
-
 * Make sure you have a free [GitHub account](https://github.com/signup)
+* Email or slack me your GitHub name so that I can add you to the [Pelagic Ecosystems GitHub page](https://github.com/pelagic-ecosystems).
 
 ## Install Git
 
@@ -49,15 +42,15 @@ Otherwise, find installation instructions below for your operating system.
 
 ### Git already installed?
 
-Go to the shell (console, terminal) (Appendix \@ref(shell)). Enter `which git` to request the path to your Git executable:
+Go to the shell (aka console, terminal, command line). Enter `which git` to request the path to your Git executable:
 
-```{bash collapse = TRUE}
+``` bash
 which git
 ```
 
 and `git --version` to see its version:
  
-```{bash collapse = TRUE}
+``` bash
 git --version
 ```
 
@@ -181,10 +174,12 @@ We assume the following:
   * You've updated/installed R and RStudio
   * You've installed Git
   * You've introduced yourself to Git 
+  
+If you have problems, confirm you can push to / pull from GitHub from the command line [chapter 9](https://happygitwithr.com/push-pull-github.html).
 
 ## Make a repo on GitHub
 
-Go to <https://github.com/pelagic-ecosystems> and make sure you are logged in.
+Go to <https://github.com/> and make sure you are logged in.
 
 Click green "New repository" button. Or, if you are on your own profile page, click on "Repositories", then click the green "New" button.
 
@@ -194,6 +189,8 @@ How to fill this in:
   * Description: "Code related to (your study area)" (or whatever, but some text is good for the README).
   * Public.
   * YES Initialize this repository with a README.
+  
+If everything is working fine you are ready for the workshop. If not, find a friend who was successful at this and ask for their help. Or email me to let me know you are having issues and arrive at the workshop an hour early at 8 am and we can trouble shoot.
   
 For everything else, just accept the default.
 
@@ -259,7 +256,8 @@ First, make another small change locally and push again, to make sure we've give
 
 Are you still challenged? Pick one:
 
-  *[Credential caching for HTTPS access](https://happygitwithr.com/credential-caching.html).
+  *[Credential caching for HTTPS access](https://happygitwithr.com/credential-caching.html)
+  
   *[Set up SSH keys](https://happygitwithr.com/ssh-keys.html)
 
 Now is the perfect time to do this, since you have a functioning test repo.
