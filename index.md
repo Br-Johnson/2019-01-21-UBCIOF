@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "R Projects for the Pelagic Ecosystems Lab and Hakai Affiliates"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "R Workshop for the Pelagic Ecosystems Lab and Hakai Affiliates at UBC"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Aquatic Ecosystems Research Laboratory Rm. 107 on Monday and room 220 on Tuesday, 2202 Main Mall, Vancouver, BC"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -202,12 +202,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 {% endcomment %}
+
+<p id = "setup">
+  <h2 id="setup">Setup</h2>
+  You will need to update or install R, R-studio, and git. Please follow take ~ 1 hour to <a href = "https://github.com/Br-Johnson/2019-01-21-UBCIOF/blob/gh-pages/README.md">follow these instructions</a>
+  
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   
   <h2 id="communications">Communications</h2>
   
-  We will use the  <a href="https://juvenilesalmon.slack.com">Juvenile Salmon Slack Network</a> for chatting, taking notes, and sharing URLs and bits of code. Please sign-up for a free slack account and download the desktop or mobile app <a href="https://join.slack.com/t/juvenilesalmon/signup">here</a>.
+  We will use the  <a href="https://join.slack.com/t/juvenilesalmon/signup">Juvenile Salmon Slack Network</a> for chatting, taking notes, and sharing URLs and bits of code. Please sign-up for a free slack account and download the desktop or mobile app <a href="https://join.slack.com/t/juvenilesalmon/signup">here</a>.
 </p>
 {% endif %}
 
