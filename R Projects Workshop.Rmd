@@ -17,9 +17,20 @@ library(lubridate)
 
 Did you successfully install and set up all the tools necessary for this workshop? If not do not pass go, do not collect $200. See [README](https://github.com/Br-Johnson/2019-01-21-UBCIOF/blob/gh-pages/README.md)
 
-
-
 # Introduction
+
+Why am I giving this workshop?
+
+* Facilitate the process of getting specific results from University affiliates back into the Hakai Ecological Information Management Database, and Hakai Data Catalogue.
+
+* Reduce the amount of data processing strain on Hakai by providing training to others
+
+* Take a team based approach to move the lab forward with a modern, collaborative, and reproducible set of methods
+
+* Make your lives as researchers easier and more fun
+
+* Better science less time 
+
 ## Filling in the gaps
 
 Most University courses that teach statistics and data analysis focus on teaching statistical techniques but they pay little attention to the tools, workflows, and data wrangling skills required to actually conduct an analysis from start to finish. Questions that often remain un-answered include:
@@ -39,16 +50,29 @@ What questions remain for them about how to do a data analysis?
 The objectives of this workshop are:
 
 * Become familiar with tools to manage and analyze data efficiently
+  - Write code in R-Studio
+  - Use `tidyverse`, `dplyr`, `ggplot2` and `tidyr` R packages to analyze your data
+  - Use Git version control and a changelog 
 
-* Learn to create reproducible analyses
+* Create reproducible analyses
+  - You can easily re-run your code and analysis when you get new data
+  - Others can easily find your code and understand the steps you took to analyze your data
+  - Raw data are available
 
-* Effectively share your code with collaborators
+* Produce well-documented, tidy data sets that have excellent provenance
+  - Data sets contain a change log with a version history of what has changed and the steps used to process data
+  - All variables in the dataset are defined in a data dictionary
+  - Laboratory methods are thoroughly described
 
 ## Background
 
 New ideas about what makes a good data analysis are emerging. With data being so readily available in vast quantities, analyzing data using out of date methods — such as Excel — can quickly become overwhelming, not reproducible, error-prone, and difficult to assess for reliability. 
 
 ['Duke Scandal'](http://www.cbsnews.com/news/deception-at-duke-fraud-in-cancer-care/)
+
+Science is in a reproducibility crisis.
+
+If we want the work we do to have the greatest impact, others must be able to _easily_ reproduce the work so that they can buildon it. That's what we're trying to do at Hakai.
 
 Some important concepts in defining a good data analysis are:
 
@@ -413,14 +437,15 @@ Your working directory should now look like mine.
 
 To avoid having to set your working directory completely, a recommended method to work with relative file paths is using the `here()` package in conjunction with R-Studio projects. When you create a new R-Studio project, a .Rproj file is automatically created in the new folder that you created for the project. The `here()` package will automatically set your working directory to wherever your .Rproj file is saved. That means you can save a file like this: `write_csv(file_name, here("data", "file_name.csv"))`. Using `here()` means that if you access your collaborators folder where the .Rproj file is and they have been using relative paths using `here()`, the scripts should all just work—no chaning working directories or absolute file paths.
 
+Questions?
+
 ## Interacting with R
 
 The basis of programming is that we write down instructions for the computer to
 follow, and then we tell the computer to follow those instructions. We write, or
 *code*, instructions in R because it is a common language that both the computer
 and we can understand. We call the instructions *commands* and we tell the
-computer to follow the instructions by *executing* (also called *running*) those
-commands.
+computer to follow the instructions by *running* those commands. We use *functions* that are part of *packages*.
 
 There are two main ways of interacting with R: by using the console or by using
 script files (plain text files that contain your code). The console pane (in
@@ -445,6 +470,8 @@ script and the console panes.
 ## R Markdown
 
 Create a new R Markdown File.
+
+File > New > R Markdown
 
 ### What's Markdown?
 
