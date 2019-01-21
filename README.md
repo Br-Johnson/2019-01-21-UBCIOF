@@ -250,6 +250,10 @@ If you have made it this far, you are DONE with set up. But first ...
 
 ## Were you challenged for GitHub username and password?
 
+If you weren't challenged, YOU ARE DONE!
+
+If you were challenged, follow these instructions
+
 If you somehow haven't done so yet, now is the perfect time to make sure you don't need to keep providing username and password on each push.
 
 First, make another small change locally and push again, to make sure we've given your system every opportunity to cache your credentials and retrieve them from the cache. It might "just work".
