@@ -213,7 +213,7 @@ You should find yourself in a new local RStudio Project that represents the new 
 
 ## Make local changes, save, commit
 
-From RStudio, modify the `README.md` file, e.g., by adding the line "This is a line from RStudio". Save your changes.
+From RStudio, open up the `README.md` file that you see listed in the bottom right corner of the screen and modify it, e.g., by adding the line "This is a line from RStudio". Save your changes.
 
 Commit these changes to your local repo. How?
 
