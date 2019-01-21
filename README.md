@@ -157,9 +157,10 @@ A comprehensive list for various Linux and Unix package managers:
 
 ## Introduce yourself to Git
 
-Substituting your name and the email associated with your GitHub account, run these lines of code in your R console.
+Substituting your name and the email associated with your GitHub account, run these two lines of code in your R console.
 
-```library(usethis)
+```
+library(usethis)
 use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
 ```
 
