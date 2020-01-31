@@ -17,7 +17,6 @@ If you already have these tools installed PLEASE update them by downloading the 
 * Update or install these packges by running the following code in the R Console pane:
     ```
     install.packages(c('tidyverse', 'lubridate', 'devtools', 'googlesheets', 'here'))
-    devtools::install_github("HakaiInstitute/hakai-api-client-r", subdir='hakaiApi')
     ```
     
 ## Hakai Data Portal
